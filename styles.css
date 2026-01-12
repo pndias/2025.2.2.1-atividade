@@ -91,3 +91,49 @@
     border-radius: 8px;
     text-align: center;
 }
+
+.tipo-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.tipo-playfair {
+    font-family: 'Playfair Display', serif;
+}   
+
+.tipo-sistema {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.peso-light {
+    font-weight: 300;
+}
+.peso-normal {
+    font-weight: 400;
+}
+.peso-bold {
+    font-weight: 700;
+}
+
+.tamanho-14{
+    font-size: 14px;
+}
+
+.tamanho-16{
+    font-size: 16px;
+}   
+
+.tamanho-18{
+    font-size: 18px;
+}
+.tamanho-24{
+    font-size: 24px;
+}
+
+.linha-compacta {
+    line-height: 1.2;
+}
+.linha-normal {
+    line-height: 1.5;
+}
+.linha-ampla {
+    line-height: 2.0;
+}
