@@ -96,6 +96,7 @@ body {
   color: white;
   padding: 20px;
   border-radius: 8px;
+  border: solid 2px var(--cyber-cyan);
   text-align: center;
 }
 
@@ -144,4 +145,115 @@ body {
 }
 .linha-ampla {
   line-height: 2;
+}
+
+.bg-cor {
+  background-color: var(--deep-abyss);
+  color: white;
+  padding: 20px;
+  border: solid 2px var(--cyber-cyan);
+  border-radius: 8px;
+  text-align: center;
+}
+.image-container {
+  width: 300px;
+  height: 200px;
+  border: solid 2px var(--cyber-cyan);
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.bg-cover {
+  background-image: url("https://cdn.mos.cms.futurecdn.net/iE4FXnNnPvYsZYc4q9PNiY.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  border: solid 2px var(--cyber-cyan);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.bg-contain {
+  background-image: url("https://cdn.mos.cms.futurecdn.net/iE4FXnNnPvYsZYc4q9PNiY.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  border: solid 2px var(--cyber-cyan);
+  border-radius: 8px;
+  text-align: center;
+}
+.bg-pos-center {
+  position: center;
+  background-position: center;
+}
+.bg-pos-top {
+  position: top;
+  background-position: top;
+}
+.bg-pos-bottom {
+  position: bottom;
+  background-position: bottom;
+}
+.bg-pos-left {
+  position: left;
+  background-position: left;
+}
+.bg-pos-right {
+  position: right;
+  background-position: right;
+}
+
+.grad-linear-2 {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.grad-linear-3 {
+  background: linear-gradient(to right, #f093fb, #f5576c, #ffd140);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.grad-linear-diagonal {
+  background: linear-gradient(45deg, #fa8bff, #2bd2ff, #2bff88);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.grad-radial {
+  background: radial-gradient(circle, #667eea, #764ba2);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.grad-complexo {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.grad-radial-complexo {
+  background: radial-gradient(circle at top left, #fa8bff, #2bd2ff, #2bff88);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
 }
